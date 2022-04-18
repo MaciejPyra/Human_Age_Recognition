@@ -17,7 +17,17 @@ Stack
 * Python
 * DS/ML frameworks -> NumPy, pandas, Matplotlib, seaborn, scikit-learn, TensorFlow 
 
-Table of Contents (up to date)
+
+##### Table of Contents  
+[Image Preprocessing](#Image-Preprocessing)  
+[Model Building](#Model-Building)  
+[Classification and evaluation of the best model](#Classification-and-evaluation-of-the-best-model) 
+<a name="headers"/>
+## Headers
+
+
+
+#####Table of Contents
 - [Image Preprocessing](#Image-Preprocessing)
 - [Model Building](#Model-Building)
 - [Classification and evaluation of the best model](#Classification-and-evaluation-of-the-best-model)
