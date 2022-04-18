@@ -19,7 +19,17 @@ Stack
 
 Gallery
 
-![alt text](https://github.com/MaciejPyra/Human_Age_Recognition/blob/main/Figures/figure1.jpg)
+After the initial analysis of the photos, it was decided to designate a total of 5 separate categories:
+• '(0, 6)' - people up to the age of six,
+• '(7, 20)' - people between the age of seven and twenty,
+• '(21, 37)' - people between the age of twenty-first and thirty-seven,
+• '(38, 59)' - people between thirty-eight and fifty-nine years of age,
+• '(60+)' - people over sixty years of age.
+
+The figure below shows five photos from each category.
+![alt text](https://github.com/MaciejPyra/Human_Age_Recognition/blob/main/Figures/figure7jpg)
+
+
 ![alt text](https://github.com/MaciejPyra/Human_Age_Recognition/blob/main/Figures/figure2.jpg)
 ![alt text](https://github.com/MaciejPyra/Human_Age_Recognition/blob/main/Figures/figure3.jpg)
 ![alt text](https://github.com/MaciejPyra/Human_Age_Recognition/blob/main/Figures/figure4.jpg)
