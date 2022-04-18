@@ -74,10 +74,18 @@ The figure below shows a graphic illustration of that architecture. The dimensio
 </p>
 
 
+In order to present the network training process, a graph showing the accuracy of ConvNet classification in relation to the epoch was generated. The chart below shows two lines, the blue one indicating the learning progress on the set training set and the red one symbolizing the validation set. In addition, the yellow color accentuates the space known as the model overfitting.
 
 
-![alt text](https://github.com/MaciejPyra/Human_Age_Recognition/blob/main/Figures/Architektura_sieć_v2.jpg)
-![alt text](https://github.com/MaciejPyra/Human_Age_Recognition/blob/main/Figures/figure4.jpg)
+
+<p align="center">
+  <img src="https://github.com/MaciejPyra/Human_Age_Recognition/blob/main/Figures/figure8.jpg" />
+</p>
+
+
+
+
+![alt text](https://github.com/MaciejPyra/Human_Age_Recognition/blob/main/Figures/figure8.jpg)
 ![alt text](https://github.com/MaciejPyra/Human_Age_Recognition/blob/main/Figures/figure5.jpg)
 ![alt text](https://github.com/MaciejPyra/Human_Age_Recognition/blob/main/Figures/figure6.jpg)
 ![alt text](https://github.com/MaciejPyra/Human_Age_Recognition/blob/main/Figures/figure7.jpg)
