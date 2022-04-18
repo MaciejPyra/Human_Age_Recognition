@@ -105,34 +105,41 @@ When it comes to category 4, you can see a large randomness of the classificatio
 The figures below show examples of incorrect classifications for individual categories, along with a brief commentary and an attempt to identify the cause of errors.
 
 <p align="center">
-  <img src="https://github.com/MaciejPyra/Human_Age_Recognition/blob/main/Figures/figure11.JPG" />
+  <img src="https://github.com/MaciejPyra/Human_Age_Recognition/blob/main/Figures/Figure11.JPG" />
 </p>
+
+
+It was noticed that the model has a problem with black people and Asians for whose number of photos in the training set is very limited. In addition, many photos are blurry, fuzzy, or underexposed. There are also cases of including items unusual for this category in the photo such as sunglasses that distinguish the elderly.
 
 
 <p align="center">
   <img src="https://github.com/MaciejPyra/Human_Age_Recognition/blob/main/Figures/figure13.JPG" />
 </p>
 
+
+The real problem of category 1 is the great similarity between teenagers and people aged 21-25, less often the middle-aged ones. As in class 0, the model has a lot of difficulties in classifying non-white people.
+
+
 <p align="center">
   <img src="https://github.com/MaciejPyra/Human_Age_Recognition/blob/main/Figures/figure15.JPG" />
 </p>
 
+
+Interestingly, it was noted that ConvNet learned to classify people with a bicycle helmet into Category 4. This is an obvious error due to the rare occurrence of such pictures in other classes in the training set.
+
+
 <p align="center">
   <img src="https://github.com/MaciejPyra/Human_Age_Recognition/blob/main/Figures/figure17.JPG" />
 </p>
+
+
+Verifying the results, it turned out that the network may have problems with cases of images with two faces, classifying the main face as a person with a side face.
+
 
 <p align="center">
   <img src="https://github.com/MaciejPyra/Human_Age_Recognition/blob/main/Figures/figure19.JPG" />
 </p>
 
 
+In addition to the small number of pictures of pensioners in the training set, it may also be influenced by the illusory nature of many pictures - people who have just turned 60 years of age often do not look like seniors yet and are included in other age groups.
 
-
-![alt text](https://github.com/MaciejPyra/Human_Age_Recognition/blob/main/Figures/figure5.jpg)
-![alt text](https://github.com/MaciejPyra/Human_Age_Recognition/blob/main/Figures/figure6.jpg)
-![alt text](https://github.com/MaciejPyra/Human_Age_Recognition/blob/main/Figures/figure7.jpg)
-![alt text](https://github.com/MaciejPyra/Human_Age_Recognition/blob/main/Figures/figure8.jpg)
-![alt text](https://github.com/MaciejPyra/Human_Age_Recognition/blob/main/Figures/figure9.jpg)
-![alt text](https://github.com/MaciejPyra/Human_Age_Recognition/blob/main/Figures/figure10.jpg)
-![alt text](https://github.com/MaciejPyra/Human_Age_Recognition/blob/main/Figures/figure11.jpg)
-![alt text](https://github.com/MaciejPyra/Human_Age_Recognition/blob/main/Figures/figure12.jpg)
