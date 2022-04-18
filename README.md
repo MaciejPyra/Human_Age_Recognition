@@ -20,11 +20,11 @@ Stack
 Image Preprocessing
 
 After the initial analysis of the photos, it was decided to designate a total of 5 separate categories:<br/>
-• '(0, 6)' - people up to the age of six, <br/>
-• '(7, 20)' - people between the age of seven and twenty, <br/>
-• '(21, 37)' - people between the age of twenty-first and thirty-seven, <br/>
-• '(38, 59)' - people between thirty-eight and fifty-nine years of age, <br/>
-• '(60+)' - people over sixty years of age.
+• category 0 -> '(0, 6)' - people up to the age of six, <br/>
+• category 1 -> '(7, 20)' - people between the age of seven and twenty, <br/>
+• category 2 -> '(21, 37)' - people between the age of twenty-first and thirty-seven, <br/>
+• category 3 -> '(38, 59)' - people between thirty-eight and fifty-nine years of age, <br/>
+• category 4 -> '(60+)' - people over sixty years of age.
 
 The figure below shows five photos from each category.
 
@@ -105,24 +105,24 @@ When it comes to category 4, you can see a large randomness of the classificatio
 The figures below show examples of incorrect classifications for individual categories, along with a brief commentary and an attempt to identify the cause of errors.
 
 <p align="center">
-  <img src="https://github.com/MaciejPyra/Human_Age_Recognition/blob/main/Figures/figure11.jpg" />
+  <img src="https://github.com/MaciejPyra/Human_Age_Recognition/blob/main/Figures/figure11.JPG" />
 </p>
 
 
 <p align="center">
-  <img src="https://github.com/MaciejPyra/Human_Age_Recognition/blob/main/Figures/figure13.jpg" />
+  <img src="https://github.com/MaciejPyra/Human_Age_Recognition/blob/main/Figures/figure13.JPG" />
 </p>
 
 <p align="center">
-  <img src="https://github.com/MaciejPyra/Human_Age_Recognition/blob/main/Figures/figure15.jpg" />
+  <img src="https://github.com/MaciejPyra/Human_Age_Recognition/blob/main/Figures/figure15.JPG" />
 </p>
 
 <p align="center">
-  <img src="https://github.com/MaciejPyra/Human_Age_Recognition/blob/main/Figures/figure17.jpg" />
+  <img src="https://github.com/MaciejPyra/Human_Age_Recognition/blob/main/Figures/figure17.JPG" />
 </p>
 
 <p align="center">
-  <img src="https://github.com/MaciejPyra/Human_Age_Recognition/blob/main/Figures/figure19.jpg" />
+  <img src="https://github.com/MaciejPyra/Human_Age_Recognition/blob/main/Figures/figure19.JPG" />
 </p>
 
 
