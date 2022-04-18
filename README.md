@@ -17,7 +17,13 @@ Stack
 * Python
 * DS/ML frameworks -> NumPy, pandas, Matplotlib, seaborn, scikit-learn, TensorFlow 
 
-Image Preprocessing
+Table of Contents
+- [Image Preprocessing](#Image Preprocessing)
+- [Model Building](#Model Building)
+- [Classification and evaluation of the best model](#Classification and evaluation of the best model)
+
+
+##Image Preprocessing
 
 After the initial analysis of the photos, it was decided to designate a total of 5 separate categories:<br/>
 • category 0 -> '(0, 6)' - people up to the age of six, <br/>
@@ -54,7 +60,7 @@ Following the chart above, the final size value turned out to be 256x256 pixels.
 
 Subsequently, the pixel values of photos were normalized. The pixel values in each image turned to be integers in the range <0, 255>.
 
-Model Building
+##Model Building
 
 Due to the non-linearity of convolutional neural networks, it was difficult to construct a topology that would immediately give good results, especially in terms of image recognition. The only effective way was through trial and error method, a heuristic approach that did not guarantee obtaining the best model but brought us at least closer to a suboptimal solution.
 
@@ -62,7 +68,7 @@ A total of over 60 models were built. The following steps were made to choose th
 * basic models with a different number of convolutional networks, the number of kernels and the number of layers and resplectively neurons in deep layers. Selected topologies were tested on various combinations of hyperparameters, changing learning rate and batch size.
 * regularized models including Dropout, Weight Constraint, Batch Normalization and Weight Decay. The mentioned regularization techniques were used both separately and in conjunction with each other. Similar to the basic models various combinations of hyperparameters were implemented.
 
-Classification and evaluation of the best model
+##Classification and evaluation of the best model
 
 In accordance with the modeling results presented in the previous chapter, model with five convolution layers, each respectively with 16, 16, 32, 32 and 64 filters, was selected as the best and guaranteeing the highest classification accuracy on the validation set. Additionally, the value of the padding parameter was defined as "same" for the first 3 layers and "valid" for the next two. Pooling occurred after each layer. Later in the topology, three deep layers appeared, with 256, 128 and 5 neurons each.    
 
