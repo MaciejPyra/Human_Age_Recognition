@@ -2,9 +2,8 @@
 
 Table of Contents
 
-  * [Image](#image-preprocessing)
-  * [Model](#model-building)
-  * [Classification](#classification-and-evaluation-of-the-best-model)
+  * [Image](#desc)
+  * [Model](#usage)
 
 The aim of the project was the practical implementation of convolutional neural networks and maximizing the accuracy of their classification in terms of recognizing the age range to which the analyzed people belong. My task was to build the model which would provide reliable indication for assigning individual images of faces to appropriate age groups.
 
@@ -39,6 +38,7 @@ Stack
 - [Classification and evaluation of the best model](#Classification-and-evaluation-of-the-best-model)
 
 
+<a name="desc"></a>
 ##Image Preprocessing
 
 After the initial analysis of the photos, it was decided to designate a total of 5 separate categories:<br/>
@@ -76,6 +76,7 @@ Following the chart above, the final size value turned out to be 256x256 pixels.
 
 Subsequently, the pixel values of photos were normalized. The pixel values in each image turned to be integers in the range <0, 255>.
 
+<a name="usage"></a>
 ##Model Building
 
 Due to the non-linearity of convolutional neural networks, it was difficult to construct a topology that would immediately give good results, especially in terms of image recognition. The only effective way was through trial and error method, a heuristic approach that did not guarantee obtaining the best model but brought us at least closer to a suboptimal solution.
