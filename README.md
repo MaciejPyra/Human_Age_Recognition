@@ -19,4 +19,15 @@ Stack
 
 Gallery
 
+![alt text](https://github.com/MaciejPyra/Human_Age_Recognition/blob/main/Figures/figure1.jpg)
+![alt text](https://github.com/MaciejPyra/Human_Age_Recognition/blob/main/Figures/figure2.jpg)
+![alt text](https://github.com/MaciejPyra/Human_Age_Recognition/blob/main/Figures/figure3.jpg)
+![alt text](https://github.com/MaciejPyra/Human_Age_Recognition/blob/main/Figures/figure4.jpg)
+![alt text](https://github.com/MaciejPyra/Human_Age_Recognition/blob/main/Figures/figure5.jpg)
+![alt text](https://github.com/MaciejPyra/Human_Age_Recognition/blob/main/Figures/figure6.jpg)
+![alt text](https://github.com/MaciejPyra/Human_Age_Recognition/blob/main/Figures/figure7.jpg)
+![alt text](https://github.com/MaciejPyra/Human_Age_Recognition/blob/main/Figures/figure8.jpg)
+![alt text](https://github.com/MaciejPyra/Human_Age_Recognition/blob/main/Figures/figure9.jpg)
 ![alt text](https://github.com/MaciejPyra/Human_Age_Recognition/blob/main/Figures/figure10.jpg)
+![alt text](https://github.com/MaciejPyra/Human_Age_Recognition/blob/main/Figures/figure11.jpg)
+![alt text](https://github.com/MaciejPyra/Human_Age_Recognition/blob/main/Figures/figure12.jpg)
