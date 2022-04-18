@@ -92,9 +92,42 @@ A heatmap showing a specific number of predicted classifications to individual c
 </p>
 
 
+In case of category 0 the final model rarely makes mistakes, and if it does, it identifies faces as class 1, confusing children most often with the upper age range. 
+
+ConvNet has difficulties distinguishing between catagories 1 and 2. This is especially true for adolescents who in most cases resemble people in the 21-37 age group. Interestingly, the problem mainly exists for photos tagged as photos of women, possibly due to the presence of make-up that highlights the characteristics of older people while hiding the natural shapes seen in the 7-20 year old age group.
+
+As expected, the model has many dilemmas with faces from category 2. Already as part of the exploration of the collection, it was noticed that the faces of people in the lower limit of the 21-37 age range may be confused with class 1, and those in the upper limit do not differ much from people in category 3, i.e. 38-59 years old. What is particularly important, in contrast to other categories, the 21-37 age group is very diverse, many faces are characterized by unconventionality which makes it difficult to classify them correctly. 
+
+The same conclusion was made for category 3, with the assumption that faces were expected to be misclassified as 21-37, and 60+ in particular.
+
+When it comes to category 4, you can see a large randomness of the classification. As expected, the model makes a lot of mistakes in identifying seniors as people aged 38-59. On the other hand, such a significant percentage of forecasts of assigning them to categories 1 and 2 was surprising. This is probably related to the problem of an unbalanced set in which there were very few photos of seniors which ultimately resulted in the network's inability to learn the unique characteristics of the above group.
+
+The figures below show examples of incorrect classifications for individual categories, along with a brief commentary and an attempt to identify the cause of errors.
+
+<p align="center">
+  <img src="https://github.com/MaciejPyra/Human_Age_Recognition/blob/main/Figures/figure11.jpg" />
+</p>
 
 
-![alt text](https://github.com/MaciejPyra/Human_Age_Recognition/blob/main/Figures/figure9.jpg)
+<p align="center">
+  <img src="https://github.com/MaciejPyra/Human_Age_Recognition/blob/main/Figures/figure13.jpg" />
+</p>
+
+<p align="center">
+  <img src="https://github.com/MaciejPyra/Human_Age_Recognition/blob/main/Figures/figure15.jpg" />
+</p>
+
+<p align="center">
+  <img src="https://github.com/MaciejPyra/Human_Age_Recognition/blob/main/Figures/figure17.jpg" />
+</p>
+
+<p align="center">
+  <img src="https://github.com/MaciejPyra/Human_Age_Recognition/blob/main/Figures/figure19.jpg" />
+</p>
+
+
+
+
 ![alt text](https://github.com/MaciejPyra/Human_Age_Recognition/blob/main/Figures/figure5.jpg)
 ![alt text](https://github.com/MaciejPyra/Human_Age_Recognition/blob/main/Figures/figure6.jpg)
 ![alt text](https://github.com/MaciejPyra/Human_Age_Recognition/blob/main/Figures/figure7.jpg)
