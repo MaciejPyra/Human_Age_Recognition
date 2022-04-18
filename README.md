@@ -1,5 +1,11 @@
 # Human_Age_Recognition
 
+Table of Contents
+
+  * [Image](#image-preprocessing)
+  * [Model](#model-building)
+  * [Classification](#classification-and-evaluation-of-the-best-model)
+
 The aim of the project was the practical implementation of convolutional neural networks and maximizing the accuracy of their classification in terms of recognizing the age range to which the analyzed people belong. My task was to build the model which would provide reliable indication for assigning individual images of faces to appropriate age groups.
 
 
