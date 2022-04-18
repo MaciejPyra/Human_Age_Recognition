@@ -19,9 +19,9 @@ Stack
 
 
 ##### Table of Contents  
-[Image Preprocessing](#Image-Preprocessing)  
-[Model Building](#Model-Building)  
-[Classification and evaluation of the best model](#Classification-and-evaluation-of-the-best-model) 
+[Image Preprocessing](#image-preprocessing)  
+[Model Building](#model-building)  
+[Classification and evaluation of the best model](#classification-and-evaluation-of-the-best-model) 
 <a name="headers"/>
 ## Headers
 
