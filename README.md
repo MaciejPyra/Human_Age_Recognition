@@ -41,9 +41,12 @@ In the next step, it was decided to examine the resolution of photos and then se
 </p>
 
 
+The "zero padding" method was used to align the aspect ratio of the images to a value of 1. For each photo, its width was compared with its height, and then made equal by adding zero pixels to the smaller value on both sides of the photo (left and right for width or top and bottom for height). A pixel with a value of zero on the RGB scale is assigned a black color.
 
 
-
+<p align="center">
+  <img src="https://github.com/MaciejPyra/Human_Age_Recognition/blob/main/Figures/figure6.jpg" />
+</p>
 
 
 
