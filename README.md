@@ -1,2 +1,20 @@
 # Human_Age_Recognition
-Practical implementation of convolutional neural networks to classify images to categories
+
+The aim of the project was the practical implementation of convolutional neural networks and maximizing the accuracy of their classification in terms of recognizing the age range to which the analyzed people belong. My task was to build the model which would provide reliable indication for assigning individual images of faces to appropriate age groups.
+
+
+Please note that repo code includes not only final models but also procedding steps like try to understand the whole dataset, image preprocessing and data normalization. Aditionally, there was a comprehensive analysis of the best model in terms of classification accuracy and its potential problems with specific category discrimination.
+
+Data collected by Eran Eidinger, Roee Enbar and Tal Hassner presented in the work "Age and Gender Estimation of Unfiltered Faces" (Institute of Electrical and Electronics Engineers, Princeton University, New York, 2013), was used. The authors collected photos taken with the iPhone 5 or its newer model. The photos were uploaded by users on social networks.
+
+WHY?
+
+WHY NOT? Why not just waste a couple of weeks of your life creating a deep learning project, just to cover up your insecurities of how incompetent you are. Seriously, this was a great opportunity to immerse into very interesting world of convolutional neural networks, problems related to choice of optimal network topology, regularization and image classification. Thanks to ConvNets it was possible to increase model accuracy in ImageNet project from 72% in 2010 to 96% in 2015. 
+It turned out that models based on convolutional neural networks can effectively compete with traditional algorithms such as logistic regressions, decision trees or random forests, especially in the context of very fast development of computers and multiple multiplication of their potential computing power. Therefore, I decided to implement the my own project relating to image classification and face recognition.
+
+
+Stack
+* Python
+* DS/ML frameworks -> NumPy, pandas, Matplotlib, seaborn, scikit-learn, TensorFlow 
+
+Gallery
