@@ -20,10 +20,10 @@ Stack
 Gallery
 
 After the initial analysis of the photos, it was decided to designate a total of 5 separate categories:<br/>
-• '(0, 6)' - people up to the age of six,
-• '(7, 20)' - people between the age of seven and twenty,
-• '(21, 37)' - people between the age of twenty-first and thirty-seven,
-• '(38, 59)' - people between thirty-eight and fifty-nine years of age,
+• '(0, 6)' - people up to the age of six, <br/>
+• '(7, 20)' - people between the age of seven and twenty, <br/>
+• '(21, 37)' - people between the age of twenty-first and thirty-seven, <br/>
+• '(38, 59)' - people between thirty-eight and fifty-nine years of age, <br/>
 • '(60+)' - people over sixty years of age.
 
 The figure below shows five photos from each category.
