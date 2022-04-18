@@ -43,7 +43,7 @@ In the next step, it was decided to examine the resolution of photos and then se
 
 The "zero padding" method was used to align the aspect ratio of the images to a value of 1. For each photo, its width was compared with its height, and then made equal by adding zero pixels to the smaller value on both sides of the photo (left and right for width or top and bottom for height). A pixel with a value of zero on the RGB scale is assigned a black color.
 
-Below are two examples of how zero padding can be used in practice. In the first line, zero value pixels were added to the left and right of the image to increase the width of the photo, whose aspect ratio was 0.79. In turn, the second line shows the modification of the image height by zero padding above and below the image. The aspect ratio in this case was equal to 1.19. Finally, the format of both modified photos was equal to 1.
+There are two examples of how zero padding can be used in practice. In the first line, zero value pixels were added to the left and right of the image to increase the width of the photo, which aspect ratio was 0.79. In turn, the second line shows the modification of the image height by zero padding above and below the image. The aspect ratio in this case was equal to 1.19. Finally, the format of both modified photos was equal to 1.
 
 
 <p align="center">
