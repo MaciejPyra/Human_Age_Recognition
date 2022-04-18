@@ -83,9 +83,18 @@ In order to present the network training process, a graph showing the accuracy o
 </p>
 
 
+At a later stage of the work, using the above model, the classification of photos from the test set was performed in order to assess and verify the predictive power of the analyzed network. A value of 70.37% was achieved. Taking into account the fact that the photographs reproduced the reality in which we live - a very limited and additionally unbalanced set and the rawness of images - final result is relatively satisfying. Face recognition is a very complex problem especially regarding unstable face position, various-lengthened poses, non-schematic facial expressions and uneven lighting of images.
+
+A heatmap showing a specific number of predicted classifications to individual categories depending on their true class was generated and presented below.
+
+<p align="center">
+  <img src="https://github.com/MaciejPyra/Human_Age_Recognition/blob/main/Figures/figure9.jpg" />
+</p>
 
 
-![alt text](https://github.com/MaciejPyra/Human_Age_Recognition/blob/main/Figures/figure8.jpg)
+
+
+![alt text](https://github.com/MaciejPyra/Human_Age_Recognition/blob/main/Figures/figure9.jpg)
 ![alt text](https://github.com/MaciejPyra/Human_Age_Recognition/blob/main/Figures/figure5.jpg)
 ![alt text](https://github.com/MaciejPyra/Human_Age_Recognition/blob/main/Figures/figure6.jpg)
 ![alt text](https://github.com/MaciejPyra/Human_Age_Recognition/blob/main/Figures/figure7.jpg)
