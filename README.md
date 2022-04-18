@@ -1,3 +1,10 @@
+➥ cat https://github.com/MaciejPyra/Human_Age_Recognition/blob/main/README.md | ./gh-md-toc -
+  * [Dockerfile.vim](#image-preprocessing)
+  * [Screenshot](#model-building)
+
+
+
+
 # Human_Age_Recognition
 
 The aim of the project was the practical implementation of convolutional neural networks and maximizing the accuracy of their classification in terms of recognizing the age range to which the analyzed people belong. My task was to build the model which would provide reliable indication for assigning individual images of faces to appropriate age groups.
