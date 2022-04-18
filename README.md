@@ -31,10 +31,10 @@ The figure below shows five photos from each category.
 ![alt text](https://github.com/MaciejPyra/Human_Age_Recognition/blob/main/Figures/figure7.jpg)
 
 
-Before further processing of the photographs, it was checked whether there were any damaged images in the initial set, the so-called "Corrupted files". After importing the photos to Python, it was checked for duplicate photos, too. MD5 cryptographic algorithm was used to automatically detect duplicates in the data set.
-In the next step, it was decided to examine the resolution of photos and then select one size and change resolution of the photos. The following figure shows the combinations of the width and height of each image.
+Before further processing of the photographs, it was checked whether there were any damaged images in the initial set, the so-called "corrupted files". After importing the photos to Python, it was checked for duplicate photos, too. MD5 cryptographic algorithm was used to automatically detect duplicates in the dataset.
+In the next step, it was decided to examine the resolution of photos and then select one optimal size. The following figure shows the combinations of the width and height of each image.
 
-![alt text](https://github.com/MaciejPyra/Human_Age_Recognition/blob/main/Figures/figure5.jpg)
+<p align="center">![alt text](https://github.com/MaciejPyra/Human_Age_Recognition/blob/main/Figures/figure5.jpg)</p>
 
 
 
