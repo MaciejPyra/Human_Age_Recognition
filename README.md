@@ -18,3 +18,5 @@ Stack
 * DS/ML frameworks -> NumPy, pandas, Matplotlib, seaborn, scikit-learn, TensorFlow 
 
 Gallery
+
+![alt text](https://github.com/MaciejPyra/Human_Age_Recognition/blob/main/Figures/figure10.jpg)
