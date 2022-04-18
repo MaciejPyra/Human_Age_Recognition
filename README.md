@@ -4,6 +4,7 @@ Table of Contents
 
   * [Image](#desc)
   * [Model](#usage)
+  * [Classification](#zabawa)
 
 The aim of the project was the practical implementation of convolutional neural networks and maximizing the accuracy of their classification in terms of recognizing the age range to which the analyzed people belong. My task was to build the model which would provide reliable indication for assigning individual images of faces to appropriate age groups.
 
@@ -85,6 +86,7 @@ A total of over 60 models were built. The following steps were made to choose th
 * basic models with a different number of convolutional networks, the number of kernels and the number of layers and resplectively neurons in deep layers. Selected topologies were tested on various combinations of hyperparameters, changing learning rate and batch size.
 * regularized models including Dropout, Weight Constraint, Batch Normalization and Weight Decay. The mentioned regularization techniques were used both separately and in conjunction with each other. Similar to the basic models various combinations of hyperparameters were implemented.
 
+<a name="zabawa"></a>
 ##Classification and evaluation of the best model
 
 In accordance with the modeling results presented in the previous chapter, model with five convolution layers, each respectively with 16, 16, 32, 32 and 64 filters, was selected as the best and guaranteeing the highest classification accuracy on the validation set. Additionally, the value of the padding parameter was defined as "same" for the first 3 layers and "valid" for the next two. Pooling occurred after each layer. Later in the topology, three deep layers appeared, with 256, 128 and 5 neurons each.    
