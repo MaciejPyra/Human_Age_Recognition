@@ -1,0 +1,8 @@
+# requirements without versions
+tensorflow
+pandas
+Pillow
+numpy
+seaborn
+matplotlib
+scikit-learn
