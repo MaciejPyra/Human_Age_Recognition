@@ -106,7 +106,7 @@ The figure below shows a graphic illustration of that architecture. The dimensio
 
 
 <p align="center">
-  <img src="https://github.com/MaciejPyra/Human_Age_Recognition/blob/main/Figures/Architektura_sieć_v2.jpg" />
+  <img src="https://github.com/MaciejPyra/Human_Age_Recognition/blob/main/Figures/Final_Topology_full.jpg" />
 </p>
 
 <a name="optim2"></a>
