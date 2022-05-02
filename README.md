@@ -1,4 +1,4 @@
-# Face recognition
+# Face Recognition
 
 The aim of the project was the practical implementation of convolutional neural networks and maximizing the accuracy of their classification in terms of recognizing the age range to which the analyzed people belong. My task was to build the model which would provide reliable indication for assigning individual images of faces to appropriate age groups.
 
