@@ -146,7 +146,7 @@ When it comes to category 4, you can see a large randomness of the classificatio
 The figures below show examples of incorrect classifications for individual categories, along with a brief commentary and an attempt to identify the cause of errors.
 
 <p align="center">
-  <img src="https://github.com/MaciejPyra/Human_Age_Recognition/blob/main/Figures/Figure11.JPG" />
+  <img src="https://github.com/MaciejPyra/Human_Age_Recognition/blob/main/Figures/Figure10.JPG" />
 </p>
 
 
